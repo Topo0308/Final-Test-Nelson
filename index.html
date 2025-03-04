@@ -8,24 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <style>
-        .custom-bg {
-            background-color: #000;
-            color: #fff;
-        }
-        .price-tag {
-            background-color: #ff6600;
-            color: white;
-            padding: 10px 15px;
-            border-radius: 5px;
-            display: inline-block;
-        }
-        .feature-icon {
-            font-size: 2rem;
-            color: #ff6600;
-            margin-bottom: 10px;
-        }
-    </style>
+   
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -108,26 +91,6 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <style>
-        .custom-bg {
-            background-color: #000;
-            color: #fff;
-        }
-        .price-tag {
-            background-color: #ff6600;
-            color: white;
-            padding: 10px 15px;
-            border-radius: 5px;
-            display: inline-block;
-        }
-        .feature-icon {
-            font-size: 2rem;
-            color: #ff6600;
-            margin-bottom: 10px;
-        }
-    </style>
-</head>
-<body>
     <section class="custom-bg py-5">
         <div class="container">
             <div class="row align-items-center">
@@ -136,15 +99,18 @@
                     <p class="lead mb-4">
                         Pas besoin de s'abonner à plusieurs plateformes ; Flix Prime propose la consolidation de contenus provenant de diverses plateformes, de chaînes premium, de télévision en direct et de sports, le tout en un seul endroit et à un prix imbattable.
                     </p>
-                    <div class="price-tag mb-4">
-                        S/ 19,90 PAR MOIS (jusqu'à 3 appareils)
+                    <div class="price-tag mb-4" style="margin-left: 400px">
+                            <h1> $19,90 </h1>
+                            <p>  par    MOIS (jusqu'à 3 appareils) </p>
                     </div>
                     <div class="row">
                         <div class="col-md-6 mb-3">
                             <div class="d-flex align-items-center">
-                                <i class="bi bi-headset feature-icon me-3"></i>
+                             
                                 <div>
-                                    <i class="fa fa-phone" aria-hidden="true"></i>
+                                    <div class="device-icon">
+                                        <i class="fas fa-headset"></i>
+                                    </div>
                                     <h5 class="m-0">Assistance 24h/24</h5>
                                     <p class="text-muted m-0">Nous avons une attention personnalisée permanente.</p>
                                 </div>
@@ -154,6 +120,9 @@
                             <div class="d-flex align-items-center">
                                 <i class="bi bi-globe feature-icon me-3"></i>
                                 <div>
+                                    <div class="device-icon">
+                                        <i class="fas fa-globe"></i>
+                                    </div>
                                     <h5 class="m-0">Activation en 5 minutes</h5>
                                     <p class="text-muted m-0">Seule une connexion Internet au moins 30 Mo est requise</p>
                                 </div>
@@ -169,19 +138,40 @@
             </div>
         </div>
     </section>
-    <div class="container px-4">
-        <div class="row gx-5">
-          <div class="col">
-           <div class="p-3 border bg-light">Custom column padding</div>
-          </div>
-          <div class="col">
-            <div class="p-3 border bg-light">Custom column padding</div>
-          </div>
-          <div class="col">
-            <div class="p-3 border bg-light">Custom column padding</div>
-          </div>
+  
+
+<div class="container py-5">
+    <h1 class="text-center mb-5">Appareil</h1>
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="device-card">
+                <div class="device-icon">
+                    <i class="fas fa-tv"></i>
+                </div>
+                <h3>Téléviseur intelligent</h3>
+                <p>Disponible sur tous les téléviseurs intelligents de toutes les marques</p>
+            </div>
         </div>
-      </div>
+        <div class="col-md-4 mb-4">
+            <div class="device-card">
+                <div class="device-icon">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <h3>Smartphone</h3>
+                <p>Smartphone ou Tablette avec système Android ou iOS</p>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="device-card">
+                <div class="device-icon">
+                    <i class="fas fa-laptop"></i>
+                </div>
+                <h3>PC / Ordinateur portable</h3>
+                <p>Vous pouvez l'utiliser depuis votre ordinateur portable ou de bureau</p>
+            </div>
+        </div>
+    </div>
+</div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>

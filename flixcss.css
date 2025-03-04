@@ -1,2 +1,64 @@
+.custom-bg {
+    background-color: #000;
+    color: #fff;
+}
+.price-tag {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.feature-icon {
+    font-size: 2rem;
+    color: #ff6600;
+    margin-bottom: 10px;
+}
 
+.custom-bg {
+    background-color: #000;
+    color: #fff;
+}
+.price-tag {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.feature-icon {
+    font-size: 2rem;
+    color: #ff6600;
+    margin-bottom: 10px;
+}
+
+
+body {
+    background-color: #121212;
+    color: white;
+}
+.device-card {
+    background-color: #1E1E1E;
+    border: none;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s;
+}
+.device-card:hover {
+    transform: scale(1.05);
+}
+.device-icon {
+    width: 80px;
+    height: 80px;
+    background-color: #FF6B00;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px;
+}
+.device-icon i {
+    color: white;
+    font-size: 40px;
+}
 
